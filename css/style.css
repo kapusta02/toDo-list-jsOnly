@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Latica';
+    src: url('../fonts/LaticaRegular.ttf');
+}
+body{
+    font-family: 'Latica', sans-serif;
+    font-weight: 700;
+}
+.container {
+    margin: 0 auto;
+}
+.create-block{
+    text-align: center;
+}
+#create-block-input{
+    box-shadow: 1px 1px 0px 0px  rgba(0, 0, 0, 1);
+    border: 2px solid black;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 380px;
+    height: 25px;
+}
+#create-block-btn{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 1px  rgba(0, 0, 0, 1);
+    cursor: pointer;
+    padding: 4px 18px;
+    font-size: 16px;
+}
+.progress-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.execution-stage-to-do, .execution-stage-in-progress, .execution-stage-done{
+    border: 2px solid black;
+    margin-right: 2px;
+}
+.execution-stage-text{
+    margin: 0;
+    padding: 5px 70px;
+}
+.execution-stage-text-progress{
+    padding: 5px 48px;
+}
+.task-to-do{
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-right: 2px;
+    padding-bottom: 5px;
+}
+.shared-styles {
+    background-color: rgb(170, 165, 165);
+    border: 2px solid;
+    margin-left: 3px;
+    margin-top: 5px;
+    width: 167px;
+    position: relative;
+}
+
+#progress-block-task-to-do {
+    display: none;
+}
+.new-block{
+    padding-top: 3px;
+}
+.progress-text-button{
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    box-shadow: 2px 2px 0px 1px rgb(0 0 0);
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.task-text{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    overflow: hidden;
+    width: 112px;
+}
+.button-delete{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
